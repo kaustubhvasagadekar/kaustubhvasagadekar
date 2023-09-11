@@ -1,10 +1,6 @@
 - 👋 Hi, I’m @kaustubhvasagadekar
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+- 👀 I’m interested in moving forward with the world
+- 🌱 I’m currently learning whatever intrigues me 
+- 💞️ I’m looking to collaborate on projects that i can be a valuable asset to 
+- 📫 How to reach me: kaustubh.v14@gmail.com
 
-<!---
-kaustubhvasagadekar/kaustubhvasagadekar is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
