@@ -1,0 +1,3 @@
+## 2024-06-17 - [Accessibility: Syncing UI State with Keyboard Navigation]
+**Learning:** In interactive product selection widgets where visual expansion is tied to selection, listeners must be attached to the underlying radio button 'change' event, not just click events on container elements. This ensures that keyboard navigation (e.g., arrow keys) triggers the same visual feedback as mouse clicks.
+**Action:** Always verify that state-driven visual changes (like expanding menus or active borders) are triggered by input state changes (change/focus) to maintain parity between mouse and keyboard users.
