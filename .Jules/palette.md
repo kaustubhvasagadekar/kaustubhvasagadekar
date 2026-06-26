@@ -1,0 +1,3 @@
+## 2026-06-26 - [BOGO-UI Accessibility and UX Polish]
+**Learning:** In choice-based selection widgets like the BOGO offer, accessibility requires not just semantic HTML but also clear visual focus indicators (using `:focus-within`), sufficient color contrast for secondary information (replacing opacity with solid colors), and `aria-live` regions for dynamic price updates. Additionally, minor grammatical details like "2 Units" vs "2 Unit" contribute significantly to the overall feel of the UX.
+**Action:** Always verify contrast ratios on secondary text, ensure keyboard navigation has distinct focus states, and double-check pluralization in dynamically generated or static UI labels.
