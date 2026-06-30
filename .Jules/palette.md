@@ -1,0 +1,3 @@
+## 2026-06-30 - Keyboard-Friendly Selection States
+**Learning:** In choice-based UI (like BOGO offer selectors), binding UI state updates (expanding details, active borders) to the container's 'click' event breaks keyboard accessibility. Screen readers and keyboard users navigating via arrow keys trigger 'change' events on radio buttons without necessarily clicking the container.
+**Action:** Always trigger UI state transitions on the radio button's 'change' event. If a container click is desired for mouse users, programmatically select the radio and dispatch a 'change' event to maintain a single source of truth.
