@@ -1,0 +1,3 @@
+## 2026-07-02 - Keyboard Accessibility and UI State Sync
+**Learning:** In choice-based selection widgets (like BOGO offers), UI state updates such as expanding sections or updating total prices must be triggered by the radio button 'change' event rather than just 'click' events on the container. This ensures that keyboard users navigating via arrow keys receive the same visual feedback and price updates as mouse users.
+**Action:** Always bind UI state synchronization logic to the 'change' event of the underlying radio buttons and manually dispatch the event if programmatically setting 'checked = true'.
