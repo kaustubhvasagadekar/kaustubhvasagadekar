@@ -1,0 +1,3 @@
+## 2024-05-15 - Accessible State Synchronization for Radio Groups
+**Learning:** In choice-based widgets (like offer selectors), tying UI state updates (e.g., expanding panels, price updates) exclusively to 'click' events on container elements breaks keyboard accessibility. Browsers update radio states via arrow keys without firing 'click' events on the container.
+**Action:** Always use the 'change' event on the radio input itself to trigger UI state updates. If the container must be clickable, have the container's click handler programmatically check the radio and dispatch a 'change' event to ensure a single, accessible source of truth for state changes.
