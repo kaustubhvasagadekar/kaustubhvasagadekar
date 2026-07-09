@@ -1,0 +1,3 @@
+## 2025-05-14 - Keyboard-Accessible Selection Widgets
+**Learning:** For choice-based selection widgets (like BOGO offer cards containing radio buttons), UI state updates—such as expanding detail sections or updating total prices—must be triggered by the radio button's 'change' event rather than a 'click' event on the parent container. This ensures that keyboard users navigating via arrow keys experience the same dynamic UI updates as mouse users.
+**Action:** Always bind primary UI state logic to 'change' events on input elements within selection cards, and use 'click' events on containers only as a bridge to programmatically trigger the underlying input.
