@@ -1,0 +1,3 @@
+## 2026-07-26 - Keyboard Arrow Navigation and Accessibility Injection
+**Learning:** For choice-based widgets containing radio buttons inside larger cards, mouse-click handlers on parent cards fail to capture keyboard arrow navigation. This can be resolved with a single-line radio change listener that clicks the parent container. Furthermore, to satisfy strict 50-line file diff limits on static pages, accessibility enhancements (like 'aria-label' attributes and placeholder state configurations) are best injected programmatically in JavaScript.
+**Action:** Always bind the radio 'change' event to trigger card-expansion/selection logic, and use vanilla JS iteration to safely decorate repeating DOM structures with screen-reader labels.
