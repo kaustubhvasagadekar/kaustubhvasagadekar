@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="offer-container">
+      <div class="title-divider">
+        <span class="line"></span>
+        <h1 class="offer-title">YAY! It's BOGO</h1>
+        <span class="line"></span>
+      </div>
+
+      <div class="offer-options">
+        <div class="offer-option" data-option="1" data-price="$10.00 USD">
+          <label for="option1" class="option-label">
+            <div class="radio-container">
+              <input type="radio" id="option1" name="offer" value="1" />
+            </div>
+
+            <div class="left-content">
+              <div class="top-row">
+                <span class="unit-text">1 Unit</span>
+                <span class="discount">10% Off</span>
+              </div>
+              <span class="standard-text">Standard Price</span>
+            </div>
+            <div class="right-content">
+              <span class="price">$10.00 USD</span>
+              <del class="original-price">$24.00 USD</del>
+            </div>
+          </label>
+          <div class="option-details">
+            <div class="left-content">
+              <div class="product-options">
+                <div class="product-header">
+                  <span></span>
+                  <span>Size</span>
+                  <span>Colour</span>
+                </div>
+                <div class="product-row">
+                  <span class="item-number">#1</span>
+                  <select class="size-select" aria-label="Size for Item #1">
+                    <option>S</option>
+                  </select>
+                  <select class="color-select" aria-label="Colour for Item #1">
+                    <option>Colour</option>
+                    <option>Black</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer-option most-popular" data-option="2" data-price="$18.00 USD">
+          <div class="popular-tag">MOST POPULAR</div>
+          <label for="option2" class="option-label">
+            <div class="radio-container">
+              <input type="radio" id="option2" name="offer" value="2" checked />
+            </div>
+            <div class="left-content">
+              <div class="top-row">
+                <span class="unit-text">2 Units</span>
+                <span class="discount">20% Off</span>
+              </div>
+            </div>
+            <div class="right-content">
+              <span class="price">$18.00 USD</span>
+              <del class="original-price">$48.00 USD</del>
+            </div>
+          </label>
+          <div class="option-details">
+            <div class="left-content">
+              <div class="product-options">
+                <div class="product-header">
+                  <span></span>
+                  <span>Size</span>
+                  <span>Colour</span>
+                </div>
+                <div class="product-row">
+                  <span class="item-number">#1</span>
+                  <select class="size-select" aria-label="Size for Item #1">
+                    <option>S</option>
+                  </select>
+                  <select class="color-select" aria-label="Colour for Item #1">
+                    <option>Colour</option>
+                    <option>Black</option>
+                  </select>
+                </div>
+                <div class="product-row">
+                  <span class="item-number">#2</span>
+                  <select class="size-select" aria-label="Size for Item #2">
+                    <option>S</option>
+                  </select>
+                  <select class="color-select" aria-label="Colour for Item #2">
+                    <option>Colour</option>
+                    <option>Black</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="offer-option" data-option="3" data-price="$24.00 USD">
+          <label for="option3" class="option-label">
+            <div class="radio-container">
+              <input type="radio" id="option3" name="offer" value="3" />
+            </div>
+            <div class="left-content">
+              <div class="top-row">
+                <span class="unit-text">3 Units</span>
+                <span class="discount">30% Off</span>
+              </div>
+            </div>
+            <div class="right-content">
+              <span class="price">$24.00 USD</span>
+              <del class="original-price">$72.00 USD</del>
+            </div>
+          </label>
+          <div class="option-details">
+            <div class="left-content">
+              <div class="product-options">
+                <div class="product-header">
+                  <span></span>
+                  <span>Size</span>
+                  <span>Colour</span>
+                </div>
+                <div class="product-row">
+                  <span class="item-number">#1</span>
+                  <select class="size-select" aria-label="Size for Item #1">
+                    <option>S</option>
+                  </select>
+                  <select class="color-select" aria-label="Colour for Item #1">
+                    <option>Colour</option>
+                    <option>Black</option>
+                  </select>
+                </div>
+                <div class="product-row">
+                  <span class="item-number">#2</span>
+                  <select class="size-select" aria-label="Size for Item #2">
+                    <option>S</option>
+                  </select>
+                  <select class="color-select" aria-label="Colour for Item #2">
+                    <option>Colour</option>
+                    <option>Black</option>
+                  </select>
+                </div>
+                <div class="product-row">
+                  <span class="item-number">#3</span>
+                  <select class="size-select" aria-label="Size for Item #3">
+                    <option>S</option>
+                  </select>
+                  <select class="color-select" aria-label="Colour for Item #3">
+                    <option>Colour</option>
+                    <option>Black</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bottom-section">
+        <div class="free-delivery">Free Delivery</div>
+        <div class="total-section">
+          <span>Total: </span><span class="total-amount">$18.00 USD</span>
+        </div>
+      </div>
+
+      <button class="add-to-cart">
+        <span class="plus-icon">+</span> Add to Cart
+      </button>
+
+      <div class="powered-by">@ Powered by Pumper</div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
