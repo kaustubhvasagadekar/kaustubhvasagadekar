@@ -1,0 +1,3 @@
+## 2026-07-13 - [BOGO-UI Accessibility and Keyboard Navigation]
+**Learning:** For choice-based selection widgets (like BOGO offers), UI state updates (expanding sections, updating prices) must be triggered by the radio button 'change' event rather than just click events on parent containers. This ensures that keyboard users navigating with arrow keys receive the same interactive experience and visual feedback as mouse users.
+**Action:** Always prefer 'change' events for radio/checkbox driven UI states and ensure programmatic changes (via click handlers on parents) dispatch a manual 'change' event.
