@@ -1,0 +1,3 @@
+## 2026-08-13 - Add to Cart Micro-interaction State Transitions
+**Learning:** Interactive buttons (like the checkout 'Add to Cart' CTA) gain significant user confidence when they utilize explicit state transitions. Disabling the button immediately prevents duplicate submissions, while displaying a dynamic CSS loading spinner and clear status text ("Adding...") keeps the user informed of the background process. Transitioning next to a success state ("✓ Added to Cart! 🎉") before gracefully reverting back creates a delightful and professional checkout loop.
+**Action:** Always map button click states explicitly (Idle -> Loading -> Success -> Idle) with transition delays, and ensure the loading elements have `aria-hidden="true"` to prevent screen reader noise.
