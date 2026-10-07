@@ -1,0 +1,3 @@
+## 2026-10-07 - Keyboard Navigation and Dynamic Success Feedback
+**Learning:** For custom selection cards containing nested radio buttons, attaching a `change` event listener on the radio input that programmatically triggers the card's click handler ensures seamless keyboard arrow-key navigation. Additionally, adding visual success feedback (`✓ Added to Cart!`) with `aria-live="polite"` on primary action buttons provides clear confirmation for both sighted and screen-reader users.
+**Action:** Always listen for `change` on nested radio controls to sync option card activation, and ensure dynamic action feedback is announced via `aria-live`.
